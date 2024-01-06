@@ -1,0 +1,42 @@
+body {
+  padding: 20px;
+}
+
+#graph-container {
+  position: relative;
+  width: 600px; /* Adjusted for the new size of the largest circle */
+  height: 600px; /* Adjusted for the new size of the largest circle */
+  margin: auto; /* Center the container */
+}
+
+.circle {
+  border-radius: 50%;
+  border-style: dashed;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#circle1 {
+  width: 200px; /* Larger size */
+  height: 200px; /* Larger size */
+}
+
+#circle2 {
+  width: 400px; /* Larger size */
+  height: 400px; /* Larger size */
+}
+
+#circle3 {
+  width: 600px; /* Largest size */
+  height: 600px; /* Largest size */
+}
+
+.avatar {
+  width: 40px; /* Larger size */
+  height: 40px; /* Larger size */
+  border-radius: 50%;
+  position: absolute;
+  /* Adjust for avatar styling */
+}
